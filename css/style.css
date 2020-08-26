@@ -1,0 +1,91 @@
+html{
+    background-color: black;
+    color: #444;
+    height: 100%;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+p{
+    font-family: 'Anonymous Pro', monospace;
+    padding: 10px;    
+    margin: 0px;
+    color: lime;
+    font-size: 0.9em;
+}
+
+header{
+    margin: 0px;
+    padding: 0px;
+    border-bottom: dotted 2px lime;
+    display: flex;
+    justify-content: center;
+}
+
+.ascii-art {
+    margin: 0px;
+    padding: 0;
+    font-family: monospace;
+    white-space: pre;
+    color: white;
+    color: lime;
+    font-size: 0.7em;
+    font-weight: bolder;
+}
+main{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#terminal {
+    width: 40%;
+    min-width: 500px;
+    height: 70%;
+    margin: 10px;
+    border: solid lime 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+#terminal div{
+    padding: 2px;
+    margin: 7px;
+    border: solid 1px lime;
+}
+
+#terminal div p{
+    margin: 0px;
+    padding: 5px;
+}
+
+#terminal-nav-bar{
+    height: 20px;
+    margin-bottom: 0px!important;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#terminal-screen{
+    flex-grow: 1;
+}
+
+footer{
+    background-color: green;
+    margin: 5px;
+}
+
+footer p{
+    color: black;
+    padding: 5px;
+    margin: 0px;
+}
