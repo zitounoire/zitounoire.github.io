@@ -54,6 +54,7 @@ main{
     border: solid lime 4px;
     display: flex;
     flex-direction: column;
+    min-height: 320px;
 }
 
 #terminal div{
