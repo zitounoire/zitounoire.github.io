@@ -13,6 +13,12 @@ body{
     justify-content: space-between;
 }
 
+a {
+    font-family: 'Anonymous Pro', monospace;
+    color: lime;
+    text-decoration: none;
+}
+
 p{
     font-family: 'Anonymous Pro', monospace;
     padding: 10px;    
@@ -21,23 +27,33 @@ p{
     font-size: 0.9em;
 }
 
+h1{
+    font-family: 'Anonymous Pro', monospace;
+    color: lime;
+    font-size: 8em;
+    margin: 20px 0px;
+}
+
 header{
     margin: 0px;
     padding: 0px;
-    border-bottom: dotted 2px lime;
+    border-bottom: dashed 1px lime;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .ascii-art {
     margin: 0px;
     padding: 0;
+    margin-left: 10px;
     font-family: monospace;
     white-space: pre;
     color: white;
     color: lime;
     font-size: 0.7em;
     font-weight: bolder;
+    border-bottom: limegreen 1px dashed;
 }
 main{
     flex-grow: 1;
@@ -89,4 +105,27 @@ footer p{
     color: black;
     padding: 5px;
     margin: 0px;
+}
+
+#navigation{
+    margin: 5px;
+}
+#navigation a:hover{
+    color: black;
+    background-color: orange;  
+    font-weight: bold;
+}
+
+a.disabled {
+    pointer-events: none;
+    cursor: default;
+    color: black;
+    background-color: lime;  
+    font-weight: bold;
+  }
+
+
+
+.logo div:hover{
+    border-bottom: solid 1px orange;
 }
